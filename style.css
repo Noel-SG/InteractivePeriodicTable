@@ -53,9 +53,23 @@ p{
     height: 240px;
     
 }
-
-tr{
-    
+.bottom-container{
+    display: flex;
+}
+.column{
+    flex: 1;
+}
+.row-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row{
+    display: flex;
+}
+.guide-row{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 220px;
 }
 .null{
     padding: 40px;
