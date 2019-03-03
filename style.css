@@ -222,9 +222,7 @@ p{
 .keyThing{
     margin-left: 40px;
     padding: 40px;
-    float:left; 
     display:inline; 
-    width: 49%;
 }
 .KeyDescription{
     float:right; 
