@@ -226,21 +226,17 @@ p{
 }
 .KeyDescription{
     float:right; 
-     
-    
 }
 .Hydrogen:hover{
     width: 500px;
 }
 .DescriptionColors{
+    margin-left: 10px;
     display: flex;
     align-items: center;
     text-align: center;
     font-weight: bold;
     padding: 1px;
-    
-    
-    
 }
 .page{
   box-shadow: 0 0 18px 0 rgba(0,0,0,0.2);
