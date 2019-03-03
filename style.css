@@ -1,0 +1,192 @@
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+
+}
+h4{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+
+}
+h3{
+    text-align: left;
+    padding-left: 30px;
+    font-family: Arial, Helvetica, sans-serif
+}
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+
+    
+}
+#elementStyle{
+    border-style: solid;
+    border-color: black;
+    font-size: 32px;
+    padding: 15px;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    
+}
+#keyStyle{
+    border-style: solid;
+    border-color: black;
+    font-size: 148px;
+    padding: 15px;
+    
+    width: 320px;
+    height: 240px;
+    
+}
+
+tr{
+    
+}
+.null{
+    padding: 40px;
+}
+.metals{
+    background-color: #becff5
+}
+.nonMetals{
+    background-color: #da8e8e
+}
+.halide{
+    background-color: #ddeea4
+}
+.noblegas{
+    background-color: #f0bf92
+}
+.metalloids{
+    background-color: #c3eea0
+}
+.alkalineMetals{
+    background-color: #ece5bf
+}
+.alkaliMetals{
+    background-color: #f5d5a3
+}
+.transitionMetals{
+    background-color: #95e5eb
+}
+.lanthanideTable{
+    margin-left: 30px;
+}
+.lanthanides{
+    background-color: #f3c3f3
+}
+.actinoids{
+    background-color: #d9c1e9
+}
+.others{
+    background-color: #c3c3c3
+}
+.atomicNum{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    padding: 0px;
+}
+.atomicMass{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding: 0px;
+}
+.centerTable{
+    text-align: center
+}
+
+.atomicNumKey{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 64px;
+    text-align: left;
+    padding: 0px;
+}
+.atomicMassKey{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    text-align: center;
+    padding: 0px;
+}
+.indicator{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#elementStyle:hover{
+    background-color: yellow
+    
+}
+.groupNumber{
+    font-size: 16px;
+    text-align: center
+}
+.groupNumber:hover{
+    
+}
+.alkaliMetalKey{
+    background-color: #f5d5a3
+}
+.alkalineMetalKey{
+    background-color: #ece5bf
+}
+.halideKey{
+    background-color: #ddeea4
+}
+.nobleKey{
+    background-color: #f0bf92
+}
+.metalKey{
+    background-color: #becff5
+}
+.metalloidsKey{
+    background-color: #c3eea0
+}
+.nonMetalsKey{
+    background-color: #da8e8e
+}
+.transitionMetalsKey{
+    background-color: #95e5eb
+}
+.actinoidsKey{
+    background-color: #d9c1e9
+}
+.lanthanidesKey{
+    background-color: #f3c3f3
+}
+.othersKey{
+    background-color: #c3c3c3
+}
+.ColorKey{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+}
+.keyThing{
+    margin-left: 40px;
+    padding: 40px;
+    float:left; 
+    display:inline; 
+    width: 49%;
+}
+.KeyDescription{
+    float:right; 
+     
+    
+}
+.Hydrogen:hover{
+    width: 500px;
+}
