@@ -53,9 +53,23 @@ p{
     height: 240px;
     
 }
-
-tr{
-    
+.bottom-container{
+    display: flex;
+}
+.column{
+    flex: 1;
+}
+.row-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row{
+    display: flex;
+}
+.guide-row{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 220px;
 }
 .null{
     padding: 40px;
@@ -159,116 +173,44 @@ tr{
     border-color: black;
     
 }
-.alkaliMetalKey{
-    background-color: #f5d5a3;
-    width: 90px;
-    height: 40px;
+.colour-square{
+    width: 45px;
+    height: 45px;
     border-style: solid;
     border-color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between
-    
+}
+.alkaliMetalKey{
+    background-color: #f5d5a3;    
 }
 .alkalineMetalKey{
     background-color: #ece5bf;
-    width: 90px;
-    height: 40px;
-    border-style: solid;
-    border-color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between
 }
 .halideKey{
     background-color: #ddeea4;
-    width: 90px;
-    height: 40px;
-    border-style: solid;
-    border-color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between
 }
 .nobleKey{
     background-color: #f0bf92;
-    width: 90px;
-    height: 40px;
-    border-style: solid;
-    border-color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between
 }
 .metalKey{
     background-color: #becff5;
-    width: 90px;
-    height: 40px;
-    border-style: solid;
-    border-color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between
 }
 .metalloidsKey{
     background-color: #c3eea0;
-    width: 90px;
-    height: 40px;
-    border-style: solid;
-    border-color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between
 }
 .nonMetalsKey{
     background-color: #da8e8e;
-    width: 90px;
-    height: 40px;
-    border-style: solid;
-    border-color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between
 }
 .transitionMetalsKey{
     background-color: #95e5eb;
-    width: 90px;
-    height: 40px;
-    border-style: solid;
-    border-color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between
 }
 .actinoidsKey{
     background-color: #d9c1e9;
-    width: 90px;
-    height: 40px;
-    border-style: solid;
-    border-color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between
 }
 .lanthanidesKey{
     background-color: #f3c3f3;
-    width: 90px;
-    height: 40px;
-    border-style: solid;
-    border-color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between
 }
 .othersKey{
     background-color: #c3c3c3;
-    width: 90px;
-    height: 40px;
-    border-style: solid;
-    border-color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between
 }
 .ColorKey{
     width: 40px;
@@ -280,27 +222,21 @@ tr{
 .keyThing{
     margin-left: 40px;
     padding: 40px;
-    float:left; 
     display:inline; 
-    width: 49%;
 }
 .KeyDescription{
     float:right; 
-     
-    
 }
 .Hydrogen:hover{
     width: 500px;
 }
 .DescriptionColors{
+    margin-left: 10px;
     display: flex;
     align-items: center;
     text-align: center;
     font-weight: bold;
     padding: 1px;
-    
-    
-    
 }
 .page{
   box-shadow: 0 0 18px 0 rgba(0,0,0,0.2);
@@ -316,7 +252,4 @@ tr{
     color: black;
     font-size: 90px;
     
-}
-.DescriptionColors:hover{
-    background-color: yellow;
 }
