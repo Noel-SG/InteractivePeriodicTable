@@ -182,7 +182,9 @@ p{
 }
 .groupNumber{
     font-size: 16px;
-    text-align: center
+    text-align: center;
+    height: 50px;
+    
 }
 .groupNumber:hover{
     background-color: greenyellow;

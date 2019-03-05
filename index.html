@@ -2,12 +2,16 @@
     <head>
         <title>The periodic table (interactive)</title>
         <link rel="stylesheet" href="style.css">
+      
+        <script src="jquery-3.3.1.min.js"></script>
+        <script src="script.js"></script>
+        
     </head>
     <body>
 
 
         
-            <br>
+        <br>
         <h1>The interactive periodic table</h1>
 
         <h4>01/03/2019 by NoelSG</h4>
@@ -18,7 +22,10 @@
 
         <hr>
 
-        <div class="columnRight-container">
+        <button class="buttonHideColorGuide" id="hideGuide">Hide the color guide</button>
+        <button class="buttonShowColorGuide" id="showGuide">Show the color guide</button>
+
+        <div class="columnRight-container" id="colorGuide">
             <h3>Colour guide:</h3>
             <div class="row-container">
                 <div class="row guide-row">
@@ -92,6 +99,7 @@
 
             </tr>
             <br>
+            
             <tr>
                 <td id="elementStyle" class="nonMetals" class="Hydrogen"><div class="atomicNum">1</div>H<div class="atomicMass">1.007</div><div class="elementName">Hydrogen</div></td>
                 <td></td>
