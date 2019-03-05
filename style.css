@@ -29,6 +29,9 @@ p{
 
     
 }
+.columnRight-container{
+    margin-left: 40px;
+}
 #elementStyle{
     border-style: solid;
     border-color: black;
@@ -39,9 +42,17 @@ p{
     height: 60px;
     
 }
+.Subtitle{
+    text-align: center
+}
 .PeriodicTable{
     text-align: center;
     padding: 50px;
+}
+.elementName{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    
 }
 #keyStyle{
     border-style: solid;
@@ -70,6 +81,12 @@ p{
     margin-top: 5px;
     margin-bottom: 5px;
     width: 220px;
+}
+.guide-row:hover{
+    background-color: yellowgreen;
+    border-style: dashed;
+    border-color: black;
+
 }
 .null{
     padding: 40px;
@@ -222,7 +239,7 @@ p{
 .keyThing{
     margin-left: 40px;
     padding: 40px;
-    display:inline; 
+     
 }
 .KeyDescription{
     float:right; 
@@ -251,5 +268,6 @@ p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
     font-size: 90px;
+    text-align: center
     
 }
