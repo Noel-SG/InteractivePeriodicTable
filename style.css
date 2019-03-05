@@ -43,6 +43,11 @@ p{
     text-align: center;
     padding: 50px;
 }
+.elementName{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    
+}
 #keyStyle{
     border-style: solid;
     border-color: black;
@@ -70,6 +75,9 @@ p{
     margin-top: 5px;
     margin-bottom: 5px;
     width: 220px;
+}
+.guide-row:hover{
+    background-color: yellowgreen;
 }
 .null{
     padding: 40px;
