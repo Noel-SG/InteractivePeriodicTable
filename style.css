@@ -48,6 +48,7 @@ p{
 .PeriodicTable{
     text-align: center;
     padding: 50px;
+    display: inline;
 }
 .elementName{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -73,7 +74,9 @@ p{
 .row-container{
     display: flex;
     flex-wrap: wrap;
+    
 }
+
 .row{
     display: flex;
 }
@@ -81,10 +84,14 @@ p{
     margin-top: 5px;
     margin-bottom: 5px;
     width: 220px;
+    height: 50px;
+    border-width: 1px;
+    border-color: transparent;
 }
 .guide-row:hover{
     background-color: yellowgreen;
     border-style: dashed;
+    border-width: 1px;
     border-color: black;
 
 }
@@ -180,6 +187,9 @@ p{
     font-weight: bold;
     
 }
+.elementHover{
+    background-color:yellow;
+}
 .groupNumber{
     font-size: 16px;
     text-align: center;
@@ -197,6 +207,66 @@ p{
     height: 45px;
     border-style: solid;
     border-color: black;
+}
+.buttonShowColorGuide{
+    text-align: center
+}
+
+.buttonHideColorGuide{
+    text-align: center;
+    position: relative;
+
+    display: block;
+    margin: 30px auto;
+    padding: 0;
+
+    overflow: hidden;
+
+    border-width: 0;
+    outline: none;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  
+    background-color: #558f6d;
+    color: #ecf0f1;
+
+    height: 30px;
+    width: 180px;
+  
+    transition: background-color .3s;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.buttonHideColorGuide:hover{
+    background-color: #27ae60;
+}
+.buttonHideColorGuide::before{
+    content: "";
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  
+    display: block;
+    width: 0;
+    padding-top: 0;
+    
+    border-radius: 100%;
+  
+    background-color: rgba(236, 240, 241, .3);
+  
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.buttonHideColorGuide:active::before{
+    width: 120%;
+    padding-top: 120%;
+  
+    transition: width .2s ease-out, padding-top .2s ease-out;
 }
 .alkaliMetalKey{
     background-color: #f5d5a3;    
@@ -257,14 +327,7 @@ p{
     font-weight: bold;
     padding: 1px;
 }
-.page{
-  box-shadow: 0 0 18px 0 rgba(0,0,0,0.2);
-  background: #fff;
-  width: 1800px;
-  margin: 0 auto;
-  height: 260%;
-  
-}
+
 
 .myFooter{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
