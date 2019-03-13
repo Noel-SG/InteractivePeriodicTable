@@ -343,5 +343,7 @@ p{
     height: 500;
     background-color: #27ae60;
     border: solid;
-    border-color: black
+    border-color: black;
+    text-align: center;
+    
 }
