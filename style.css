@@ -336,3 +336,12 @@ p{
     text-align: center
     
 }
+
+
+#elementDetails{
+    width: 500px;
+    height: 500;
+    background-color: #27ae60;
+    border: solid;
+    border-color: black
+}
