@@ -73,7 +73,7 @@ jQuery(document).ready(function($){
         console.log("Gr1 highlight");
     })
 
-    $('#hydrogenDetails').hide();
+    $('.hydrogenDetails').hide();
     
     
 
