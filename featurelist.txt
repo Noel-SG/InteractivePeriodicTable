@@ -1,7 +1,7 @@
 List of features to be included:
 
--Fix changing width of periodic table cells (when element name is hovered upon, it is bolded and becomes too big, so the cell's width automatically increases)
--When hover upon specific color guide, highlight the elements in this group (eg. when hovering over metals color guide, highlight metals in the periodic table)
--Move footer down
--Use jQuery to show/hide the color guide
--Use jQuery to display a new div, which appears when clicking on an element
+-Fix changing width of periodic table cells (when element name is hovered upon, it is bolded and becomes too big, so the cell's width automatically increases) DONE
+-When hover upon specific color guide, highlight the elements in this group (eg. when hovering over metals color guide, highlight metals in the periodic table) DONE
+-Move footer down <b>INCOMPLETE/>
+-Use jQuery to show/hide the color guide DONE
+-Use jQuery to display a new div, which appears when clicking on an element <i>WIP/>
