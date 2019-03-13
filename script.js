@@ -72,6 +72,8 @@ jQuery(document).ready(function($){
         $(".gr1").toggleClass("elementHover");
         console.log("Gr1 highlight");
     })
+
+    $('#hydrogenDetails').hide();
     
     
 

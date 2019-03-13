@@ -340,7 +340,7 @@ p{
 #elementDetails{
     width: 500px;
     height: 500;
-    background-color: lightblue;
+    background-color: lightcyan;
     border: solid;
     border-color: black;
     text-align: center;
@@ -348,6 +348,15 @@ p{
     margin: auto;
     border-radius: 25px;
     
+}
+
+.nobleGasDetails{
+
+
+}
+
+.nonMetalDetails{
+    background-color: lightcoral
 }
 
 .elementHeader{
