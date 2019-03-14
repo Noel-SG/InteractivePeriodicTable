@@ -383,3 +383,22 @@ p{
     display: block;
     margin: auto;
 }
+
+.tableClass{
+    position: relative;
+}
+
+.hydrogenDetails{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+
+
+}
+
+.hydrogenElement{
+    z-index: 0;
+}
