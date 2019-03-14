@@ -1,6 +1,7 @@
 h1{
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
 }
 h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -10,7 +11,8 @@ h2{
 }
 h4{
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
 
 }
 h3{
@@ -40,6 +42,7 @@ p{
     text-align: center;
     width: 60px;
     height: 60px;
+    border-width: 1.5px;
     
 }
 .Subtitle{
@@ -207,6 +210,7 @@ p{
     height: 45px;
     border-style: solid;
     border-color: black;
+    border-width: 1px;
 }
 .buttonShowColorGuide{
     text-align: center
@@ -328,13 +332,18 @@ p{
     padding: 1px;
 }
 
-
+.header{
+    width: 100%;
+    height: 200px;
+    background-color: forestgreen;
+}
 .myFooter{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
     font-size: 90px;
-    text-align: center
-    
+    text-align: center;
+    margin:auto;
+    display: block;
 }
 
 #elementDetails{
@@ -343,6 +352,7 @@ p{
     background-color: lightcyan;
     border: solid;
     border-color: black;
+    border-width: 1px;
     text-align: center;
     display: block;
     margin: auto;
@@ -386,6 +396,7 @@ p{
 
 .tableClass{
     position: relative;
+    text-align: center;
 }
 
 .hydrogenDetails{

@@ -82,6 +82,8 @@ jQuery(document).ready(function($){
 
     $(".HydrogenElement").on("click", function(){
         $(".hydrogenDetails").fadeIn();
+        //document.getElementById("elementHeader1").innerHTML = "Noel";
+        console.log("to noel")
         
     })
 
