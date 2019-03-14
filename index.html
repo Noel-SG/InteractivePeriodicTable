@@ -13,7 +13,7 @@
         <div class="2">
             <h1>The interactive periodic table</h1>
         
-            <h4>Last updated: 06.03.2019 by NoelSG</h4>
+            <h4>Last updated: 14.03.2019 by NoelSG</h4>
             <br>
             <div class="Subtitle">An open-source pet-project</div>
             <h4>Follow me on: <a href="https://github.com/Noel-SG">Github</a></h4>
@@ -31,6 +31,8 @@
             <div class="elementMasses">
                 <div class="dAtomicMass">Atomic mass: 1.008</div>
                 <div class="dAtomicNumber">Atomic number: 1</div>
+                <div class="meltingPoint"></div>
+                <div class="boilingPoint"></div>
             </div>
             <br>
             <img src="img/hydrogen.jpg" id="elementImage">
@@ -46,17 +48,35 @@
         <div id="elementDetails" class="heliumDetails" class="nobleGasDetails">
             <div class="elementHeader">Helium</div>
             <div class="elementMasses">
-                <div class="dAtomicMass">Atomic mass: 4.003</div>
-                <div class="dAtomicNumber">Atomic number: 2</div>
+                <div class="dAtomicMass">Atomic mass: 6.941</div>
+                <div class="dAtomicNumber">Atomic number: 3</div>
                 <div class="ElectronConfig">1s2</div>
+                <div class="meltingPoint"></div>
+                <div class="boilingPoint"></div>
             </div>
             <br>
             <img src="img/helium.jpg" id="elementImage">
             <br>
             Helium is the second element in the periodic table. It is a noble gas, meaning it is unreactive. As well as hydrogen,
             it is monatomic. It has the lowest boiling point out of all elements.
+            
+            <button class="closeDetails buttonHideColorGuide">Close</button>
+        </div>
 
+        <div id="elementDetails" class="lithiumDetails" class="nobleGasDetails">
+            <div class="elementHeader">Lithium</div>
+            <div class="elementMasses">
+                <div class="dAtomicMass">Atomic mass: 4.003</div>
+                <div class="dAtomicNumber">Atomic number: 3</div>
+                <div class="ElectronConfig">1s2</div>
+                <div class="meltingPoint">Melting point: </div>
+                <div class="boilingPoint">Boiling point: </div>
+            </div>
             <br>
+            <img src="img/lithium.jpg" id="elementImage">
+            <br>
+            Lithium is great
+            
             <button class="closeDetails buttonHideColorGuide">Close</button>
         </div>
 
@@ -169,7 +189,7 @@
             </tr>
 
             <tr>
-                <td id="elementStyle" class="alkaliMetals" class="gr1">
+                <td id="elementStyle" class="alkaliMetals lithiumElement" class="gr1">
                     <div class="atomicNum">3</div>Li<div class="atomicMass">6.941</div>
                     <div class="elementName">Lithium</div>
                 </td>

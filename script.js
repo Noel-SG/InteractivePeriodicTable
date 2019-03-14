@@ -75,16 +75,14 @@ jQuery(document).ready(function($){
 
     $('.hydrogenDetails').hide();
     $('.heliumDetails').hide();
+    $('.lithiumDetails').hide();
 
     $(".closeDetails").on("click", function(){
         $(".hydrogenDetails").fadeOut();
     })
 
     $(".HydrogenElement").on("click", function(){
-        $(".hydrogenDetails").fadeIn();
-        //document.getElementById("elementHeader1").innerHTML = "Noel";
-        console.log("to noel")
-        
+        $(".hydrogenDetails").fadeIn();     
     })
 
     $(".heliumElement").on("click", function(){
@@ -94,6 +92,15 @@ jQuery(document).ready(function($){
 
     $(".closeDetails").on("click", function(){
         $(".heliumDetails").fadeOut();
+    })
+    
+    $(".lithiumElement").on("click", function(){
+        $(".lithiumDetails").fadeIn();
+        
+    })
+
+    $(".closeDetails").on("click", function(){
+        $(".lithiumDetails").fadeOut();
     })
     
     
