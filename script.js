@@ -73,7 +73,7 @@ jQuery(document).ready(function($){
         console.log("Gr1 highlight");
     })
 
-    //$('.hydrogenDetails').hide();
+    $('.hydrogenDetails').hide();
     $('.heliumDetails').hide();
 
     $(".closeDetails").on("click", function(){
@@ -81,9 +81,17 @@ jQuery(document).ready(function($){
     })
 
     $(".HydrogenElement").on("click", function(){
-        console.log("Show hydrogen")
         $(".hydrogenDetails").fadeIn();
         
+    })
+
+    $(".heliumElement").on("click", function(){
+        $(".heliumDetails").fadeIn();
+        
+    })
+
+    $(".closeDetails").on("click", function(){
+        $(".heliumDetails").fadeOut();
     })
     
     
